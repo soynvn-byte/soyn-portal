@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Sora:wght@300;400;600;700;800&display=swap');
+
 :root {
   --white: #ffffff;
   --paper: #f5f5f2;
@@ -21,7 +23,7 @@ body {
   margin: 0;
   background: var(--white);
   color: var(--ink);
-  font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Be Vietnam Pro", "Segoe UI", system-ui, sans-serif;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
@@ -29,6 +31,9 @@ img { display: block; max-width: 100%; }
 a { color: inherit; text-decoration: none; }
 button, input, textarea { font: inherit; }
 button { color: inherit; }
+h1, h2, h3, h4 {
+  font-family: "Sora", "Be Vietnam Pro", system-ui, sans-serif;
+}
 
 .container { width: min(calc(100% - 40px), var(--max)); margin-inline: auto; }
 .eyebrow {
