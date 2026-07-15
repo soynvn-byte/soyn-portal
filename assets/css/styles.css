@@ -320,3 +320,21 @@ h1, h2, h3, h4 {
   * { scroll-behavior: auto !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+
+/* Facebook timeline on the News page */
+.facebook-section { background: var(--accent-wash); }
+.facebook-feed { display: grid; grid-template-columns: minmax(0, .8fr) minmax(340px, 500px); gap: clamp(32px, 7vw, 90px); align-items: center; }
+.facebook-feed-copy { max-width: 520px; }
+.facebook-feed-copy h3 { margin: 0 0 16px; font-size: clamp(2rem, 4vw, 4rem); line-height: 1; letter-spacing: -.05em; }
+.facebook-feed-copy p { margin: 0; color: var(--muted); }
+.facebook-embed { width: 100%; max-width: 500px; min-height: 700px; overflow: hidden; border-radius: 20px; background: #fff; border: 1px solid var(--line); box-shadow: var(--shadow); }
+.facebook-embed iframe { display: block; width: 100%; max-width: 500px; }
+@media (max-width: 820px) {
+  .facebook-feed { grid-template-columns: 1fr; }
+  .facebook-embed { justify-self: center; }
+}
+@media (max-width: 520px) {
+  .facebook-embed { min-height: 620px; border-radius: 14px; }
+  .facebook-embed iframe { height: 620px; }
+}
