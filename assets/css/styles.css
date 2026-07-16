@@ -214,11 +214,12 @@ h1, h2, h3, h4 {
 .footer-grid { display: grid; grid-template-columns: 1.3fr .7fr .7fr; gap: 60px; }
 .footer-brand img { width: 130px; margin-bottom: 25px; }
 .footer-brand p { max-width: 430px; color: var(--muted); }
-.footer-contact { display: grid; gap: 10px; margin-top: 24px; max-width: 520px; }
-.footer-contact a { display: grid; grid-template-columns: 72px 1fr; gap: 14px; align-items: baseline; color: var(--ink); }
-.footer-contact span { color: var(--muted); font-size: .75rem; text-transform: uppercase; letter-spacing: .08em; }
-.footer-contact strong { font-size: .92rem; line-height: 1.45; }
-.footer-contact a:hover strong { color: var(--accent-ink); }
+.footer-brand .footer-contact { display: flex; flex-direction: column; gap: 14px; margin-top: 24px; max-width: 520px; }
+.footer-brand .footer-contact > a { display: flex; flex-direction: column; align-items: flex-start; gap: 3px; width: 100%; color: var(--ink); }
+.footer-brand .footer-contact > a + a { padding-top: 12px; border-top: 1px solid var(--line); }
+.footer-brand .footer-contact span { display: block; color: var(--muted); font-size: .75rem; line-height: 1.4; text-transform: uppercase; letter-spacing: .08em; }
+.footer-brand .footer-contact strong { display: block; font-size: .92rem; line-height: 1.45; }
+.footer-brand .footer-contact a:hover strong { color: var(--accent-ink); }
 .footer-col strong { display: block; margin-bottom: 14px; }
 .footer-col a { display: block; margin: 7px 0; color: var(--muted); }
 .footer-col a:hover { color: #000; }
@@ -337,7 +338,7 @@ h1, h2, h3, h4 {
   .detail-cover { aspect-ratio: 4/3; width: calc(100% - 20px); }
   .article-layout { padding-top: 45px; }
   .footer-bottom { flex-direction: column; }
-  .footer-contact a { grid-template-columns: 1fr; gap: 3px; }
+  .footer-brand .footer-contact strong { font-size: .88rem; }
   .project-facts { grid-template-columns: 1fr; }
   .project-gallery-grid { grid-template-columns: 1fr; gap: 26px; }
   .project-gallery-item, .project-gallery-item.portrait, .project-gallery-item.wide { grid-column: 1; }
