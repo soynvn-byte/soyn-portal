@@ -4,7 +4,7 @@ window.SOYN_DATA = {
     descriptor: "Wall Art & Decor · Saigon · Since 2016",
     storeUrl: "https://soyn.vn/",
     facebookUrl: "https://www.facebook.com/soyn.vn",
-    address: "104/2 Mai Thị Lựu, Đa Kao, Quận 1, TP.HCM",
+    address: "104/2 Mai Thị Lựu, Phường Tân Định, TP. HCM",
     phone: "0899 456 699",
     email: "hello@soyn.vn"
   },
