@@ -106,8 +106,8 @@ h1, h2, h3, h4 {
 .marquee span::after { content: "●"; margin-left: 68px; color: #bbb; }
 @keyframes marquee { to { transform: translateX(-50%); } }
 
-.intro-grid { display: grid; grid-template-columns: .72fr 1.28fr; gap: 70px; align-items: start; }
-.intro-grid h2 { margin: 0; font-size: clamp(2.5rem, 6vw, 6.2rem); line-height: .95; letter-spacing: -.06em; font-weight: 550; }
+.intro-grid { display: grid; grid-template-columns: .62fr 1.38fr; gap: 70px; align-items: start; }
+.intro-grid h2 { margin: 0; font-size: clamp(2.3rem, 4.2vw, 4.5rem); line-height: .98; letter-spacing: -.055em; font-weight: 550; }
 .intro-copy { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
 .intro-copy p { margin-top: 0; color: var(--muted); }
 .stat-row { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); margin-top: 55px; }
@@ -155,8 +155,8 @@ h1, h2, h3, h4 {
 .cta h2 { max-width: 850px; font-size: clamp(2.7rem, 6vw, 6rem); line-height: .94; letter-spacing: -.06em; font-weight: 550; margin: 0 0 32px; position: relative; z-index: 2; }
 .cta .btn { border-color: #fff; position: relative; z-index: 2; }
 
-.page-hero { padding: 105px 0 70px; border-bottom: 1px solid var(--line); }
-.page-hero h1 { font-size: clamp(3.8rem, 9vw, 9rem); line-height: .85; letter-spacing: -.075em; font-weight: 580; margin: 22px 0 30px; }
+.page-hero { padding: 78px 0 54px; border-bottom: 1px solid var(--line); }
+.page-hero h1 { font-size: clamp(3.2rem, 6.5vw, 6.6rem); line-height: .9; letter-spacing: -.07em; font-weight: 580; margin: 18px 0 24px; }
 .page-hero p { max-width: 700px; font-size: 1.22rem; color: var(--muted); }
 
 .filters { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 34px; }
@@ -325,8 +325,8 @@ h1, h2, h3, h4 {
   .story-card p, .story-arrow { display: none; }
   .process-item { grid-template-columns: 45px 1fr; }
   .process-item p { grid-column: 2; }
-  .page-hero { padding-top: 72px; }
-  .page-hero h1 { font-size: clamp(3.4rem, 20vw, 5.5rem); }
+  .page-hero { padding: 54px 0 42px; }
+  .page-hero h1 { font-size: clamp(2.7rem, 12vw, 4rem); line-height: .94; }
   .detail-cover { aspect-ratio: 4/3; width: calc(100% - 20px); }
   .article-layout { padding-top: 45px; }
   .footer-bottom { flex-direction: column; }
@@ -361,16 +361,16 @@ h1, h2, h3, h4 {
 
 
 /* Compact News header so stories appear sooner */
-.news-hero { padding: 68px 0 48px; }
-.news-hero h1 { max-width: 1080px; font-size: clamp(3.2rem, 7vw, 7rem); line-height: .9; }
+.news-hero { padding: 60px 0 44px; }
+.news-hero h1 { max-width: 960px; font-size: clamp(3rem, 5.5vw, 5.8rem); line-height: .92; }
 .news-hero p { margin-bottom: 0; }
 @media (max-width: 680px) {
-  .news-hero { padding: 52px 0 38px; }
-  .news-hero h1 { font-size: clamp(3rem, 15vw, 4.8rem); }
+  .news-hero { padding: 48px 0 36px; }
+  .news-hero h1 { font-size: clamp(2.7rem, 11vw, 3.8rem); }
 }
 
 /* Company profile */
-.profile-hero h1 { max-width: 1120px; }
+.profile-hero h1 { max-width: 1050px; font-size: clamp(3.1rem, 6vw, 6.2rem); }
 .profile-lead { max-width: 760px; font-size: 1.08rem; color: var(--muted); }
 .profile-lead p:first-child { margin-top: 0; font-size: 1.28rem; color: var(--soft-ink); }
 .profile-vision, .profile-offer, .profile-services { background: var(--paper); }
@@ -402,7 +402,7 @@ h1, h2, h3, h4 {
 .brand-direction > p { max-width: 760px; color: var(--muted); font-size: 1.08rem; }
 
 /* Contact */
-.contact-hero h1 { max-width: 1120px; }
+.contact-hero h1 { max-width: 1080px; font-size: clamp(3rem, 5.6vw, 5.8rem); }
 .contact-layout { display: grid; grid-template-columns: .8fr 1.2fr; gap: clamp(42px, 8vw, 110px); align-items: start; }
 .contact-intro { position: sticky; top: 125px; }
 .contact-intro h2 { margin: 18px 0 24px; font-size: clamp(2.4rem, 5vw, 5rem); line-height: .96; letter-spacing: -.06em; }
@@ -428,6 +428,7 @@ h1, h2, h3, h4 {
 
 @media (max-width: 680px) {
   .value-grid { grid-template-columns: 1fr; }
+  .profile-hero h1, .contact-hero h1 { font-size: clamp(2.7rem, 11vw, 3.8rem); }
   .profile-duo article, .value-card, .product-feature-grid article { min-height: auto; }
   .value-card h3, .product-feature-grid h3 { margin-top: 55px; }
   .location-card { min-height: 0; padding: 22px; }
