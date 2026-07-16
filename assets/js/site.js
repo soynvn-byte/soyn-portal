@@ -40,9 +40,9 @@
   function projectCard(item) {
     return `<article class="card reveal">
       <a href="detail.html?type=project&slug=${encodeURIComponent(item.slug)}" aria-label="Xem ${item.title}">
-        <div class="card-media"><div class="art ${item.art}" role="img" aria-label="Hình minh họa đơn sắc cho ${item.title}"></div>${item.demo ? '<span class="badge badge-overlay">Nội dung mẫu</span>' : ''}</div>
+        <div class="card-media">${item.coverImage ? `<img src="${item.coverImage}" alt="${item.title}" loading="lazy">` : `<div class="art ${item.art}" role="img" aria-label="Hình minh họa cho ${item.title}"></div>`}${item.demo ? '<span class="badge badge-overlay">Nội dung mẫu</span>' : ''}</div>
         <div class="card-body">
-          <div class="card-meta"><span>${item.category}</span><time datetime="${item.date}">${formatDate(item.date)}</time></div>
+          <div class="card-meta"><span>${item.category}</span><time datetime="${item.date}">${item.year || formatDate(item.date)}</time></div>
           <h3>${item.title}</h3><p>${item.excerpt}</p>
           <span class="card-link">Xem dự án <span aria-hidden="true">↗</span></span>
         </div>
