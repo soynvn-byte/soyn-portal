@@ -87,6 +87,36 @@ window.SOYN_DATA = {
       ]
     },
     {
+      slug: "ta-la-nghe-si-cua-dat-troi",
+      title: "Ta là nghệ sĩ của đất trời — Triển lãm tranh tại Xóm Ngộ",
+      category: "Triển lãm & Nghệ thuật",
+      date: "2024-08-03",
+      year: "2024",
+      excerpt: "Không gian hội họa tại Xóm Ngộ giới thiệu những tác phẩm giàu cảm xúc của các bạn học sinh, sinh viên đam mê sáng tạo.",
+      coverImage: "assets/images/projects/ta-la-nghe-si/06-overview.jpg",
+      demo: false,
+      facebookUrl: "https://www.facebook.com/soyn.vn",
+      facts: [
+        { value: "9 ngày", label: "Thời gian triển lãm" },
+        { value: "9:00–21:00", label: "Giờ mở cửa" },
+        { value: "Pleiku", label: "Địa điểm" }
+      ],
+      content: [
+        { heading: "Một không gian dành cho những người trẻ yêu hội họa", paragraphs: ["Triển lãm tranh “Ta là nghệ sĩ của đất trời” được tổ chức tại Xóm Ngộ, quy tụ những tác phẩm do các bạn học sinh, sinh viên đam mê hội họa thực hiện. Mỗi bức tranh mang một góc nhìn riêng về con người, thiên nhiên và đời sống, được kể bằng nhiều chất liệu, phong cách cùng sắc thái cảm xúc khác nhau.", "Không gian trưng bày mộc mạc tạo nên sự gần gũi giữa tác phẩm và người xem. Những mảng tường thô, chất liệu gỗ và cách sắp đặt tự nhiên giúp từng bức tranh hiện diện chân thành, giữ trọn tinh thần trẻ trung của các tác giả."] },
+        { heading: "Từ đam mê cá nhân đến cuộc gặp gỡ cộng đồng", paragraphs: ["Triển lãm không chỉ là nơi giới thiệu thành quả sáng tạo mà còn là dịp để các bạn trẻ chia sẻ tình yêu hội họa với cộng đồng. Các tác phẩm trải rộng từ ký họa, chân dung, phong cảnh đến những câu chuyện đời thường, tạo nên một hành trình thị giác phong phú và giàu cảm hứng.", "Thông qua cuộc gặp gỡ này, người xem có thể cảm nhận nghệ thuật ở một khoảng cách gần gũi hơn — không bị giới hạn bởi tuổi tác hay trường lớp, mà bắt đầu từ khả năng quan sát, rung động và tự do biểu đạt."] },
+        { heading: "Vai trò của Soyn", paragraphs: ["Soyn vinh dự đồng hành cùng sự kiện với vai trò hoàn thiện khung và in ấn một số tác phẩm nghệ thuật. Từng bức tranh được xử lý phù hợp với kích thước, sắc độ và đặc điểm hình ảnh, sau đó kết hợp cùng hệ khung gỗ đồng bộ để sẵn sàng cho không gian trưng bày.", "Việc hoàn thiện không chỉ giúp bảo vệ tác phẩm mà còn tạo nên nhịp điệu thị giác thống nhất trên các mảng tường. Với Soyn, đây cũng là cơ hội góp phần đưa những sáng tác của các nghệ sĩ trẻ đến gần hơn với công chúng bằng một hình thức chỉn chu và trọn vẹn."] },
+        { heading: "Thông tin triển lãm", paragraphs: ["Triển lãm diễn ra từ ngày 03/08/2024 đến 11/08/2024, mở cửa hằng ngày từ 9:00 đến 21:00 tại “bây giờ và ở đây” — 199/3 Nguyễn Tất Thành, thành phố Pleiku, tỉnh Gia Lai.", "“Ta là nghệ sĩ của đất trời” là một lát cắt đẹp về sức sáng tạo của người trẻ, nơi những niềm yêu thích ban đầu được nâng niu, hoàn thiện và chia sẻ trong một không gian nghệ thuật giàu bản sắc."] }
+      ],
+      gallery: [
+        { src: "assets/images/projects/ta-la-nghe-si/01-framed-artworks.jpg", alt: "Các tác phẩm ký họa được Soyn hoàn thiện khung tại triển lãm", caption: "Chi tiết những tác phẩm được hoàn thiện khung", layout: "wide" },
+        { src: "assets/images/projects/ta-la-nghe-si/02-gallery-view.jpg", alt: "Khách tham quan xem tranh tại triển lãm Ta là nghệ sĩ của đất trời", caption: "Tác phẩm hội họa trong không gian Xóm Ngộ", layout: "portrait" },
+        { src: "assets/images/projects/ta-la-nghe-si/03-exhibition-corner.jpg", alt: "Góc trưng bày tranh kết hợp chất liệu mộc tại Xóm Ngộ", caption: "Cách sắp đặt mộc mạc và gần gũi", layout: "portrait" },
+        { src: "assets/images/projects/ta-la-nghe-si/04-visitor.jpg", alt: "Khách thưởng lãm các tác phẩm của học sinh sinh viên", caption: "Cuộc gặp gỡ giữa tác phẩm và công chúng", layout: "portrait" },
+        { src: "assets/images/projects/ta-la-nghe-si/05-student-artworks.jpg", alt: "Những bức tranh của các bạn trẻ được đóng khung gỗ", caption: "Những câu chuyện đời thường qua nét vẽ trẻ", layout: "landscape" },
+        { src: "assets/images/projects/ta-la-nghe-si/06-overview.jpg", alt: "Toàn cảnh không gian triển lãm Ta là nghệ sĩ của đất trời", caption: "Toàn cảnh triển lãm tại Xóm Ngộ", layout: "wide" }
+      ]
+    },
+    {
       slug: "khong-gian-can-ho-toi-gian",
       title: "Không gian căn hộ tối giản",
       category: "Không gian sống",
