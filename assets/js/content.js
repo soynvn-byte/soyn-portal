@@ -21,7 +21,7 @@ window.SOYN_DATA = {
       category: "Khách sạn & Nghỉ dưỡng",
       date: "2022-01-01",
       year: "2022",
-      excerpt: "Gần 200 tác phẩm do Soyn thực hiện, hoàn thiện và lắp đặt đồng bộ cho không gian khách sạn 5 sao tại Nha Trang.",
+      excerpt: "Gần 200 bức tranh do Soyn thực hiện, hoàn thiện và lắp đặt đồng bộ cho không gian khách sạn 5 sao tại Nha Trang.",
       coverImage: "assets/images/projects/december-hotel/10-room-twin.jpg",
       demo: false,
       facebookUrl: "https://www.facebook.com/soyn.vn",
@@ -29,27 +29,27 @@ window.SOYN_DATA = {
         { label: "Website chính thức December Hotel", url: "https://decemberhotel.vn/" }
       ],
       facts: [
-        { value: "~200", label: "Tác phẩm" },
+        { value: "~200", label: "Bức tranh" },
         { value: "2022", label: "Năm triển khai" },
         { value: "5 sao", label: "Phân khúc khách sạn" }
       ],
       content: [
-        { heading: "Dự án nghệ thuật quy mô gần 200 tác phẩm", paragraphs: ["Năm 2022, Soyn thực hiện hạng mục tranh trang trí cho December Hotel tại Nha Trang với quy mô gần 200 tác phẩm. Phạm vi công việc trải dài từ hoàn thiện sản phẩm, đóng khung đến bố trí và lắp đặt tại nhiều khu vực chức năng của khách sạn.", "Số lượng lớn đòi hỏi sự nhất quán về chất lượng hoàn thiện, tỷ lệ khung, sắc độ và tiến độ triển khai; đồng thời mỗi tác phẩm vẫn phải phù hợp với bối cảnh nội thất cụ thể."] },
+        { heading: "Dự án nghệ thuật quy mô gần 200 bức tranh", paragraphs: ["Năm 2022, Soyn thực hiện hạng mục tranh trang trí cho December Hotel tại Nha Trang với quy mô gần 200 bức tranh. Phạm vi công việc trải dài từ hoàn thiện sản phẩm, đóng khung đến bố trí và lắp đặt tại nhiều khu vực chức năng của khách sạn.", "Số lượng lớn đòi hỏi sự nhất quán về chất lượng hoàn thiện, tỷ lệ khung, sắc độ và tiến độ triển khai; đồng thời mỗi bức tranh vẫn phải phù hợp với bối cảnh nội thất cụ thể."] },
         { heading: "Bối cảnh không gian nghỉ dưỡng 5 sao", paragraphs: ["December Hotel tọa lạc tại 289 Nguyễn Thiện Thuật, khu vực trung tâm Nha Trang. Theo giới thiệu chính thức, khách sạn phát triển hệ sinh thái lưu trú và tiện ích gồm các hạng phòng hiện đại, nhà hàng 12 Kitchen, Sunset Bar trên tầng 27, khu thể thao Re:Charge Gym ở tầng 26 cùng không gian hội họp và sự kiện.", "Trong bối cảnh đó, tranh không chỉ là vật trang trí độc lập mà trở thành một lớp ngôn ngữ thị giác giúp kết nối phòng nghỉ, hành lang, khu ẩm thực và các không gian chung thành một trải nghiệm thống nhất."] },
-        { heading: "Ngôn ngữ hình ảnh và giải pháp phối tranh", paragraphs: ["Bộ tranh sử dụng nhiều hướng thể hiện — trừu tượng, hình học, thực vật và đồ họa nghệ thuật — nhưng được tiết chế bằng khung đen mảnh, khoảng trắng và bảng màu phù hợp với nội thất trung tính của khách sạn.", "Tại phòng nghỉ, tác phẩm được lựa chọn theo tỷ lệ mảng tường, đầu giường hoặc bàn làm việc. Ở hành lang và khu vực chung, tranh đóng vai trò tạo nhịp thị giác, dẫn hướng và bổ sung điểm nhấn mà không làm không gian trở nên nặng nề."] },
-        { heading: "Từ sản xuất đến lắp đặt", paragraphs: ["Các hình ảnh hậu trường ghi lại quá trình kiểm tra thành phẩm, tập kết và lắp đặt thực tế. Với dự án số lượng lớn, Soyn cần kiểm soát đồng bộ từng khâu: chất lượng in, bo viền, mặt tranh, khung, đóng gói, phân loại theo vị trí và thi công tại công trình.", "Việc lắp đặt được cân chỉnh theo ánh sáng, vật liệu tường, đồ nội thất và tầm nhìn của khách, giúp mỗi tác phẩm hiện diện tự nhiên trong kiến trúc thay vì chỉ được treo như một chi tiết bổ sung."] },
-        { heading: "Kết quả", paragraphs: ["Gần 200 tác phẩm đã tạo nên hệ điểm nhấn nghệ thuật xuyên suốt December Hotel. Từ phòng ngủ, bàn làm việc, khu vệ sinh, hành lang đến nhà hàng, tranh góp phần làm mềm vật liệu kiến trúc, định hình cảm xúc và tăng tính nhận diện cho trải nghiệm lưu trú.", "Dự án thể hiện năng lực của Soyn trong việc triển khai tranh trang trí ở quy mô hospitality: vừa đáp ứng số lượng, tiến độ và tiêu chuẩn hoàn thiện, vừa duy trì sự hài hòa giữa nghệ thuật với công năng của từng không gian."] }
+        { heading: "Ngôn ngữ hình ảnh và giải pháp phối tranh", paragraphs: ["Bộ tranh sử dụng nhiều hướng thể hiện — trừu tượng, hình học, thực vật và đồ họa nghệ thuật — nhưng được tiết chế bằng khung đen mảnh, khoảng trắng và bảng màu phù hợp với nội thất trung tính của khách sạn.", "Tại phòng nghỉ, bức tranh được lựa chọn theo tỷ lệ mảng tường, đầu giường hoặc bàn làm việc. Ở hành lang và khu vực chung, tranh đóng vai trò tạo nhịp thị giác, dẫn hướng và bổ sung điểm nhấn mà không làm không gian trở nên nặng nề."] },
+        { heading: "Từ sản xuất đến lắp đặt", paragraphs: ["Các hình ảnh hậu trường ghi lại quá trình kiểm tra thành phẩm, tập kết và lắp đặt thực tế. Với dự án số lượng lớn, Soyn cần kiểm soát đồng bộ từng khâu: chất lượng in, bo viền, mặt tranh, khung, đóng gói, phân loại theo vị trí và thi công tại công trình.", "Việc lắp đặt được cân chỉnh theo ánh sáng, vật liệu tường, đồ nội thất và tầm nhìn của khách, giúp mỗi bức tranh hiện diện tự nhiên trong kiến trúc thay vì chỉ được treo như một chi tiết bổ sung."] },
+        { heading: "Kết quả", paragraphs: ["Gần 200 bức tranh đã tạo nên hệ điểm nhấn nghệ thuật xuyên suốt December Hotel. Từ phòng ngủ, bàn làm việc, khu vệ sinh, hành lang đến nhà hàng, tranh góp phần làm mềm vật liệu kiến trúc, định hình cảm xúc và tăng tính nhận diện cho trải nghiệm lưu trú.", "Dự án thể hiện năng lực của Soyn trong việc triển khai tranh trang trí ở quy mô hospitality: vừa đáp ứng số lượng, tiến độ và tiêu chuẩn hoàn thiện, vừa duy trì sự hài hòa giữa nghệ thuật với công năng của từng không gian."] }
       ],
       gallery: [
-        { src: "assets/images/projects/december-hotel/01-production.jpg", alt: "Các tác phẩm được hoàn thiện và kiểm tra trước khi lắp đặt", caption: "Kiểm tra thành phẩm trước khi bàn giao", layout: "wide" },
-        { src: "assets/images/projects/december-hotel/02-install-lounge.jpg", alt: "Đội ngũ lắp đặt tranh tại khu vực bàn tiếp khách", caption: "Cân chỉnh tác phẩm tại không gian chung", layout: "portrait" },
+        { src: "assets/images/projects/december-hotel/01-production.jpg", alt: "Các bức tranh được hoàn thiện và kiểm tra trước khi lắp đặt", caption: "Kiểm tra thành phẩm trước khi bàn giao", layout: "wide" },
+        { src: "assets/images/projects/december-hotel/02-install-lounge.jpg", alt: "Đội ngũ lắp đặt tranh tại khu vực bàn tiếp khách", caption: "Cân chỉnh bức tranh tại không gian chung", layout: "portrait" },
         { src: "assets/images/projects/december-hotel/03-install-corridor.jpg", alt: "Lắp đặt tranh hoa tại hành lang December Hotel", caption: "Thi công tại hành lang khách sạn", layout: "landscape" },
         { src: "assets/images/projects/december-hotel/04-room-desk.jpg", alt: "Tranh hoa trang trí phía trên bàn làm việc trong phòng nghỉ", caption: "Điểm nhấn nghệ thuật tại bàn làm việc", layout: "landscape" },
-        { src: "assets/images/projects/december-hotel/05-room-matisse.jpg", alt: "Tranh Matisse trong phòng ngủ khách sạn", caption: "Tác phẩm trong không gian phòng nghỉ", layout: "portrait" },
+        { src: "assets/images/projects/december-hotel/05-room-matisse.jpg", alt: "Tranh Matisse trong phòng ngủ khách sạn", caption: "Bức tranh trong không gian phòng nghỉ", layout: "portrait" },
         { src: "assets/images/projects/december-hotel/06-room-minimal.jpg", alt: "Tranh tối giản phối cùng bàn và đèn đọc sách", caption: "Bảng màu tối giản, đồng điệu nội thất", layout: "portrait" },
         { src: "assets/images/projects/december-hotel/07-bathroom.jpg", alt: "Tranh trừu tượng phản chiếu qua gương phòng tắm", caption: "Nghệ thuật hiện diện trong từng góc trải nghiệm", layout: "landscape" },
         { src: "assets/images/projects/december-hotel/08-corridor.jpg", alt: "Tranh trừu tượng tại lối đi của khách sạn", caption: "Tạo nhịp thị giác cho lối đi", layout: "portrait" },
-        { src: "assets/images/projects/december-hotel/09-room-panorama.jpg", alt: "Tranh phong cảnh khổ ngang phía trên giường ngủ", caption: "Tác phẩm khổ ngang cân bằng mảng tường đầu giường", layout: "landscape" },
+        { src: "assets/images/projects/december-hotel/09-room-panorama.jpg", alt: "Tranh phong cảnh khổ ngang phía trên giường ngủ", caption: "Bức tranh khổ ngang cân bằng mảng tường đầu giường", layout: "landscape" },
         { src: "assets/images/projects/december-hotel/10-room-twin.jpg", alt: "Tranh trừu tượng trang trí phòng đôi December Hotel", caption: "Tông màu ấm trong phòng nghỉ hướng phố", layout: "landscape" },
         { src: "assets/images/projects/december-hotel/11-lounge.jpg", alt: "Tranh xanh tại khu vực lounge của December Hotel", caption: "Điểm nhấn tại khu vực lounge", layout: "portrait" },
         { src: "assets/images/projects/december-hotel/12-restaurant.jpg", alt: "Tranh trang trí tại khu vực nhà hàng December Hotel", caption: "Hoàn thiện hạng mục tại khu ẩm thực", layout: "landscape" }
