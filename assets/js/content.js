@@ -16,6 +16,32 @@ window.SOYN_DATA = {
   ],
   projects: [
     {
+      slug: "nexus-house-boutique-hotel",
+      title: "Nexus House Boutique Hotel — Nghệ thuật kết nối những không gian lưu trú",
+      category: "Khách sạn & Nghỉ dưỡng",
+      date: "2026-07-16",
+      year: "3 thành phố",
+      excerpt: "Soyn cung cấp toàn bộ hạng mục tranh trang trí cho hệ thống Nexus House Boutique Hotel tại TP.HCM, Đà Lạt và Đà Nẵng.",
+      art: "art-4",
+      demo: false,
+      facebookUrl: "https://www.facebook.com/soyn.vn",
+      externalSources: [
+        { label: "Website chính thức Nexus House", url: "https://nexushouse.vn/" },
+        { label: "Fanpage Nexus House", url: "https://www.facebook.com/Nexushousevn/" }
+      ],
+      facts: [
+        { value: "3", label: "Thành phố" },
+        { value: "Toàn bộ", label: "Hạng mục tranh" },
+        { value: "Boutique", label: "Mô hình lưu trú" }
+      ],
+      content: [
+        { heading: "Nexus House — điểm chạm kết nối trong mỗi hành trình", paragraphs: ["Nexus House Boutique Hotel phát triển hệ thống lưu trú tại TP.HCM, Đà Lạt và Đà Nẵng. Thương hiệu hướng đến một không gian nghỉ chân bình yên, gần gũi và có cảm giác thân thuộc như trở về nhà, đồng thời giữ nét riêng phù hợp với nhịp sống và cảnh quan của từng điểm đến.", "Trong tinh thần ấy, nội thất không chỉ đáp ứng công năng lưu trú mà còn đóng vai trò tạo nên cảm xúc. Từng vật liệu, gam màu và chi tiết trang trí cùng góp phần hình thành một trải nghiệm ấm áp, tinh tế và kết nối giữa con người với không gian." ] },
+        { heading: "Vai trò của Soyn trong hệ thống Nexus House", paragraphs: ["Soyn là đơn vị cung cấp toàn bộ hạng mục tranh trang trí cho hệ thống Nexus House Boutique Hotel. Phạm vi triển khai được thực hiện đồng bộ cho các cơ sở tại TP.HCM, Đà Lạt và Đà Nẵng, bảo đảm tranh trở thành một phần nhất quán trong ngôn ngữ nhận diện không gian.", "Từ lựa chọn hình ảnh, tỷ lệ tác phẩm, phương án khung đến hoàn thiện sản phẩm, mỗi chi tiết được cân nhắc dựa trên đặc điểm của phòng nghỉ và khu vực chung. Mục tiêu là tạo điểm nhấn vừa đủ, bổ sung chiều sâu thị giác mà vẫn giữ được sự thư thái cần có của một boutique hotel." ] },
+        { heading: "Ngôn ngữ tranh cho từng điểm đến", paragraphs: ["Hệ thống trải dài qua ba thành phố với bối cảnh khác nhau: nhịp sống đô thị của TP.HCM, khí hậu và thiên nhiên đặc trưng của Đà Lạt, cùng tinh thần biển của Đà Nẵng. Giải pháp tranh vì thế cần có khả năng thích ứng với từng không gian nhưng vẫn duy trì mạch cảm xúc chung của Nexus House.", "Các tác phẩm được phối theo bảng màu nội thất, kích thước mảng tường, ánh sáng và góc nhìn thực tế. Tranh không lấn át thiết kế mà hoạt động như một lớp kể chuyện nhẹ nhàng, giúp mỗi căn phòng có thêm cá tính và để lại dấu ấn trong trải nghiệm của khách lưu trú." ] },
+        { heading: "Giá trị của một hệ tranh được triển khai đồng bộ", paragraphs: ["Với mô hình chuỗi, tính đồng bộ là yêu cầu quan trọng nhưng không đồng nghĩa với lặp lại máy móc. Soyn cân bằng giữa tiêu chuẩn hoàn thiện xuyên suốt hệ thống và cách phối tranh linh hoạt theo từng loại phòng, từng cơ sở, để mỗi địa điểm vẫn giữ được bản sắc riêng.", "Dự án Nexus House Boutique Hotel thể hiện năng lực của Soyn trong việc triển khai Wall Art cho lĩnh vực hospitality: từ định hướng thẩm mỹ, sản xuất và hoàn thiện đến cung ứng theo hệ thống nhiều địa điểm. Qua đó, tranh trở thành điểm nối giữa thương hiệu, kiến trúc và cảm xúc của người ở." ] }
+      ]
+    },
+    {
       slug: "december-hotel-nha-trang",
       title: "December Hotel Nha Trang — Nghệ thuật trong không gian nghỉ dưỡng",
       category: "Khách sạn & Nghỉ dưỡng",
