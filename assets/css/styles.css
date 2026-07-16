@@ -399,6 +399,11 @@ h1, h2, h3, h4 {
 .audience-cloud { display: flex; flex-wrap: wrap; gap: 12px; }
 .audience-cloud span { padding: 13px 20px; border: 1px solid var(--line); border-radius: 999px; color: var(--soft-ink); background: #fff; }
 .audience-cloud span:nth-child(3n+1) { background: var(--accent-wash); border-color: var(--accent-soft); }
+.featured-clients { margin-top: clamp(48px, 7vw, 86px); padding-top: clamp(38px, 5vw, 62px); border-top: 1px solid var(--line); }
+.featured-clients h3 { margin: 16px 0 30px; font-size: clamp(2rem, 3.4vw, 3.6rem); line-height: 1; letter-spacing: -.05em; }
+.client-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
+.client-grid div { min-height: 112px; padding: 22px; display: flex; align-items: flex-end; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); font-family: "Sora", sans-serif; font-weight: 600; line-height: 1.35; }
+.client-grid div:nth-child(4n+1) { background: var(--accent-wash); }
 .brand-direction { max-width: 1000px; }
 .brand-direction h2 { margin: 18px 0 28px; font-size: clamp(2.6rem, 6vw, 6.2rem); line-height: .94; letter-spacing: -.06em; }
 .brand-direction > p { max-width: 760px; color: var(--muted); font-size: 1.08rem; }
@@ -430,6 +435,8 @@ h1, h2, h3, h4 {
 
 @media (max-width: 680px) {
   .value-grid { grid-template-columns: 1fr; }
+  .client-grid { grid-template-columns: 1fr; }
+  .client-grid div { min-height: 86px; }
   .profile-hero h1, .contact-hero h1 { font-size: clamp(2.45rem, 9.5vw, 3.25rem); }
   .profile-duo article, .value-card, .product-feature-grid article { min-height: auto; }
   .value-card h3, .product-feature-grid h3 { margin-top: 55px; }
