@@ -56,6 +56,37 @@ window.SOYN_DATA = {
       ]
     },
     {
+      slug: "ngoc-ngach-ar-exhibition",
+      title: "Ngóc Ngách AR Exhibition — Ký Ức Lõi",
+      category: "Triển lãm & Nghệ thuật",
+      date: "2025-01-01",
+      year: "2025",
+      excerpt: "Triển lãm AR quy tụ hơn 30 nhà sáng tạo Việt, nơi những ký ức riêng được chuyển hóa thành tác phẩm đa phương tiện và mở rộng bằng công nghệ.",
+      coverImage: "assets/images/projects/ngoc-ngach-ar/01-exhibition-view.jpg",
+      demo: false,
+      facebookUrl: "https://www.facebook.com/soyn.vn",
+      facts: [
+        { value: "30+", label: "Nhà sáng tạo" },
+        { value: "3", label: "Thành phố" },
+        { value: "2025", label: "Năm triển khai" }
+      ],
+      content: [
+        { heading: "Ngóc Ngách AR trong chuỗi Workshop 3", paragraphs: ["Triển lãm Ngóc Ngách AR diễn ra trong khuôn khổ Workshop 3 — Khám phá truyền thông đa phương tiện bền vững, chuỗi hoạt động trao đổi chuyên môn và thực hành dành cho cộng đồng thiết kế đồ họa, truyền thông đa phương tiện.", "Chương trình có sự góp mặt của nhà thiết kế Huỳnh Minh Thống, nghệ sĩ đa ngành Trung Bảo, nhà giám tuyển Anna Szylar và nhà thiết kế Viola Bernacchi. Những góc nhìn đa dạng về nghệ thuật, thiết kế và công nghệ tạo nên một không gian đối thoại mở giữa người làm nghề và công chúng."] },
+        { heading: "Ký Ức Lõi — những lát cắt riêng trong một trải nghiệm chung", paragraphs: ["Với chủ đề Ký Ức Lõi, triển lãm quy tụ tác phẩm của hơn 30 nhà sáng tạo Việt. Mỗi tác phẩm là một cách nhìn vào những ký ức riêng tư, những dấu vết văn hóa và cảm xúc đã góp phần định hình căn tính của mỗi người.", "Công nghệ AR mở rộng trải nghiệm thị giác từ bề mặt bản in sang không gian số. Khi người xem tương tác, những hình ảnh tĩnh tiếp tục chuyển động, kể chuyện và hình thành thêm các lớp nghĩa mới."] },
+        { heading: "Vai trò của Soyn", paragraphs: ["Soyn phụ trách in ấn toàn bộ tác phẩm trưng bày, chuyển tải các sáng tác đa dạng về màu sắc và ngôn ngữ thị giác thành những bản in hoàn thiện phục vụ triển lãm.", "Quá trình sản xuất đòi hỏi sự đồng bộ về chất lượng, độ chính xác của màu sắc và khả năng thích ứng với hình thức trưng bày ngoài trời. Mỗi bản in cần giữ được tinh thần nguyên bản của tác giả, đồng thời đáp ứng yêu cầu về kích thước, vật liệu và trải nghiệm quan sát thực tế."] },
+        { heading: "Hành trình qua ba thành phố", paragraphs: ["Trong năm 2025, Ngóc Ngách AR Exhibition được giới thiệu tới công chúng tại Hà Nội, Hải Phòng và TP.HCM. Hành trình qua ba thành phố giúp các tác phẩm tiếp cận nhiều cộng đồng sáng tạo và mở rộng cuộc đối thoại về ký ức, công nghệ cùng truyền thông đa phương tiện bền vững.", "Dự án ghi dấu năng lực của Soyn trong việc đồng hành cùng những hoạt động nghệ thuật đương đại — từ khâu hiện thực hóa tác phẩm đến hoàn thiện trải nghiệm trưng bày trong không gian công cộng."] }
+      ],
+      gallery: [
+        { src: "assets/images/projects/ngoc-ngach-ar/01-exhibition-view.jpg", alt: "Không gian triển lãm Ngóc Ngách AR với các tác phẩm in ngoài trời", caption: "Không gian Ngóc Ngách AR Exhibition", layout: "portrait" },
+        { src: "assets/images/projects/ngoc-ngach-ar/02-artworks-display.jpg", alt: "Khách tham quan ghi lại các tác phẩm tại triển lãm", caption: "Các tác phẩm được trưng bày trong không gian mở", layout: "portrait" },
+        { src: "assets/images/projects/ngoc-ngach-ar/03-core-memory-artwork.jpg", alt: "Khách tham quan tương tác với tác phẩm chủ đề Ký Ức Lõi", caption: "Ngôn ngữ thị giác đa dạng của Ký Ức Lõi", layout: "portrait" },
+        { src: "assets/images/projects/ngoc-ngach-ar/04-creative-works.jpg", alt: "Các tác phẩm nghệ thuật nhiều màu sắc tại triển lãm Ngóc Ngách AR", caption: "Những lát cắt ký ức qua góc nhìn sáng tạo", layout: "portrait" },
+        { src: "assets/images/projects/ngoc-ngach-ar/05-visitors.jpg", alt: "Khách tham quan chụp ảnh tác phẩm tại Ngóc Ngách AR Exhibition", caption: "Công chúng khám phá và lưu lại trải nghiệm", layout: "portrait" },
+        { src: "assets/images/projects/ngoc-ngach-ar/06-ar-experience.jpg", alt: "Người xem sử dụng điện thoại để trải nghiệm tác phẩm AR", caption: "Tương tác AR mở rộng câu chuyện của tác phẩm", layout: "portrait" },
+        { src: "assets/images/projects/ngoc-ngach-ar/07-installation.jpg", alt: "Đội ngũ thi công lắp đặt tác phẩm cho triển lãm Ngóc Ngách AR", caption: "Hậu trường hoàn thiện không gian trưng bày", layout: "portrait" }
+      ]
+    },
+    {
       slug: "khong-gian-can-ho-toi-gian",
       title: "Không gian căn hộ tối giản",
       category: "Không gian sống",
