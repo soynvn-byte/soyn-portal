@@ -428,7 +428,7 @@ h1, h2, h3, h4 {
 
 @media (max-width: 680px) {
   .value-grid { grid-template-columns: 1fr; }
-  .profile-hero h1, .contact-hero h1 { font-size: clamp(2.7rem, 11vw, 3.8rem); }
+  .profile-hero h1, .contact-hero h1 { font-size: clamp(2.45rem, 9.5vw, 3.25rem); }
   .profile-duo article, .value-card, .product-feature-grid article { min-height: auto; }
   .value-card h3, .product-feature-grid h3 { margin-top: 55px; }
   .location-card { min-height: 0; padding: 22px; }
