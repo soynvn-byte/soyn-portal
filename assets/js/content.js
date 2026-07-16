@@ -23,7 +23,6 @@ window.SOYN_DATA = {
       year: "3 thành phố",
       excerpt: "Soyn cung cấp toàn bộ hạng mục tranh trang trí cho hệ thống Nexus House Boutique Hotel tại TP.HCM, Đà Lạt và Đà Nẵng.",
       coverImage: "assets/images/projects/nexus-house/04-wood-suite.jpg",
-      demo: false,
       facebookUrl: "https://www.facebook.com/soyn.vn",
       externalSources: [
         { label: "Website chính thức Nexus House", url: "https://nexushouse.vn/" },
@@ -58,7 +57,6 @@ window.SOYN_DATA = {
       year: "2022",
       excerpt: "Gần 200 bức tranh do Soyn thực hiện, hoàn thiện và lắp đặt đồng bộ cho không gian khách sạn 5 sao tại Nha Trang.",
       coverImage: "assets/images/projects/december-hotel/10-room-twin.jpg",
-      demo: false,
       facebookUrl: "https://www.facebook.com/soyn.vn",
       externalSources: [
         { label: "Website chính thức December Hotel", url: "https://decemberhotel.vn/" }
@@ -98,7 +96,6 @@ window.SOYN_DATA = {
       year: "2025",
       excerpt: "Triển lãm AR quy tụ hơn 30 nhà sáng tạo Việt, nơi những ký ức riêng được chuyển hóa thành tác phẩm đa phương tiện và mở rộng bằng công nghệ.",
       coverImage: "assets/images/projects/ngoc-ngach-ar/01-exhibition-view.jpg",
-      demo: false,
       facebookUrl: "https://www.facebook.com/soyn.vn",
       facts: [
         { value: "30+", label: "Nhà sáng tạo" },
@@ -129,7 +126,6 @@ window.SOYN_DATA = {
       year: "2024",
       excerpt: "Không gian hội họa tại Xóm Ngộ giới thiệu những tác phẩm giàu cảm xúc của các bạn học sinh, sinh viên đam mê sáng tạo.",
       coverImage: "assets/images/projects/ta-la-nghe-si/06-overview.jpg",
-      demo: false,
       facebookUrl: "https://www.facebook.com/soyn.vn",
       facts: [
         { value: "9 ngày", label: "Thời gian triển lãm" },
@@ -151,137 +147,91 @@ window.SOYN_DATA = {
         { src: "assets/images/projects/ta-la-nghe-si/06-overview.jpg", alt: "Toàn cảnh không gian triển lãm Ta là nghệ sĩ của đất trời", caption: "Toàn cảnh triển lãm tại Xóm Ngộ", layout: "wide" }
       ]
     },
-    {
-      slug: "khong-gian-can-ho-toi-gian",
-      title: "Không gian căn hộ tối giản",
-      category: "Không gian sống",
-      date: "2026-07-10",
-      excerpt: "Bố cục wall art cân bằng khoảng thở, hình khối và sắc độ trung tính.",
-      art: "art-1",
-      demo: true,
-      facebookUrl: "https://www.facebook.com/soyn.vn",
-      content: [
-        { heading: "Bối cảnh", paragraphs: ["Đây là nội dung mẫu để minh họa cấu trúc một case study trên Portal Soyn. Khi cập nhật dự án thật, bạn có thể thay phần này bằng nhu cầu của khách hàng, hiện trạng không gian và mục tiêu thẩm mỹ."] },
-        { heading: "Giải pháp của Soyn", paragraphs: ["Sử dụng bố cục tranh theo cụm, ưu tiên khoảng trắng và sự đồng điệu với vật liệu nội thất. Nội dung nên trình bày rõ tiêu chí lựa chọn kích thước, bảng màu, khung tranh và cách bố trí."] },
-        { heading: "Kết quả", paragraphs: ["Bổ sung hình ảnh hoàn thiện, phản hồi khách hàng và liên kết đến bài đăng gốc trên fanpage để tăng độ tin cậy cho hồ sơ dự án."] }
-      ]
-    },
-    {
-      slug: "bo-qua-tang-thuong-hieu",
-      title: "Bộ quà tặng mang dấu ấn thương hiệu",
-      category: "Quà tặng doanh nghiệp",
-      date: "2026-07-02",
-      excerpt: "Gợi ý cách kể câu chuyện thương hiệu qua tranh, postcard và vật phẩm décor.",
-      art: "art-2",
-      demo: true,
-      facebookUrl: "https://www.facebook.com/soyn.vn",
-      content: [
-        { heading: "Yêu cầu", paragraphs: ["Nội dung mẫu cho dự án quà tặng doanh nghiệp: xác định người nhận, dịp tặng, ngân sách, số lượng và thông điệp cần truyền tải."] },
-        { heading: "Phương án", paragraphs: ["Trình bày concept thiết kế, danh mục vật phẩm, phương án cá nhân hóa, bao bì và tiến độ sản xuất dự kiến."] },
-        { heading: "Giá trị", paragraphs: ["Case study nên cho thấy sản phẩm không chỉ là vật phẩm tặng mà còn là một phần của trải nghiệm thương hiệu."] }
-      ]
-    },
-    {
-      slug: "goc-lam-viec-sang-tao",
-      title: "Góc làm việc giàu cảm hứng",
-      category: "Văn phòng",
-      date: "2026-06-18",
-      excerpt: "Tạo điểm nhìn nghệ thuật cho không gian làm việc bằng ngôn ngữ thị giác nhất quán.",
-      art: "art-3",
-      demo: true,
-      facebookUrl: "https://www.facebook.com/soyn.vn",
-      content: [
-        { heading: "Mục tiêu", paragraphs: ["Đây là nội dung mẫu. Phần dự án thật có thể mô tả mục tiêu làm mới văn phòng, tạo không khí sáng tạo hoặc củng cố bản sắc doanh nghiệp."] },
-        { heading: "Thiết kế", paragraphs: ["Nêu rõ cách Soyn lựa chọn chủ đề hình ảnh, tỷ lệ tranh, vị trí treo và mối liên hệ với màu sắc nội thất."] }
-      ]
-    },
-    {
-      slug: "bo-suu-tap-cam-hung-sai-gon",
-      title: "Bộ sưu tập cảm hứng Sài Gòn",
-      category: "Bộ sưu tập",
-      date: "2026-05-26",
-      excerpt: "Chuyển hóa nhịp sống đô thị thành hình ảnh, màu sắc và ký ức thị giác.",
-      art: "art-4",
-      demo: true,
-      facebookUrl: "https://www.facebook.com/soyn.vn",
-      content: [
-        { heading: "Ý tưởng", paragraphs: ["Nội dung mẫu để giới thiệu một bộ sưu tập: cảm hứng, chất liệu văn hóa, phong cách hình ảnh và nhóm khách hàng phù hợp."] },
-        { heading: "Ứng dụng", paragraphs: ["Có thể bổ sung ảnh bộ sưu tập trong căn hộ, cửa hàng, quán cà phê hoặc dưới dạng quà tặng mang dấu ấn địa phương."] }
-      ]
-    },
-    {
-      slug: "trang-tri-cua-hang-phong-cach",
-      title: "Điểm nhấn nghệ thuật cho cửa hàng",
-      category: "Không gian thương mại",
-      date: "2026-05-12",
-      excerpt: "Một hệ hình ảnh có khả năng nâng đỡ trải nghiệm và câu chuyện của không gian bán lẻ.",
-      art: "art-5",
-      demo: true,
-      facebookUrl: "https://www.facebook.com/soyn.vn",
-      content: [
-        { heading: "Bài toán", paragraphs: ["Nội dung mẫu có thể được thay bằng yêu cầu thực tế: tạo góc chụp ảnh, cải thiện nhận diện, lấp đầy mảng tường trống hoặc kể câu chuyện thương hiệu."] },
-        { heading: "Triển khai", paragraphs: ["Liệt kê số lượng sản phẩm, kích thước, cách thi công, thời gian bàn giao và hình ảnh hoàn thiện."] }
-      ]
-    },
-    {
-      slug: "artclock-qua-tang-tan-gia",
-      title: "Artclock trong không gian sống",
-      category: "Sản phẩm ứng dụng",
-      date: "2026-04-30",
-      excerpt: "Khi vật dụng đo thời gian trở thành một chi tiết trang trí có cá tính.",
-      art: "art-6",
-      demo: true,
-      facebookUrl: "https://www.facebook.com/soyn.vn",
-      content: [
-        { heading: "Câu chuyện sản phẩm", paragraphs: ["Nội dung mẫu để kể về thiết kế, vật liệu, ý nghĩa hình ảnh và cách sử dụng sản phẩm trong không gian."] },
-        { heading: "Gợi ý phối", paragraphs: ["Có thể bổ sung lời khuyên về chiều cao treo, khoảng cách với nội thất và các phong cách phù hợp."] }
-      ]
-    }
   ],
   posts: [
     {
-      slug: "cau-chuyen-phia-sau-mot-buc-tranh",
-      title: "Câu chuyện phía sau một bức tranh",
-      category: "Câu chuyện Soyn",
-      date: "2026-07-12",
-      excerpt: "Mẫu bài viết cho thấy cách chuyển nội dung fanpage thành bài dài, dễ đọc và có giá trị lưu trữ.",
-      art: "art-4",
-      demo: true,
-      source: "Facebook",
-      facebookUrl: "https://www.facebook.com/soyn.vn",
-      content: [
-        { heading: "Từ bài đăng ngắn đến câu chuyện đầy đủ", paragraphs: ["Trên fanpage, Soyn có thể đăng nhanh hình ảnh và một đoạn mô tả ngắn. Trên Portal, nội dung đó được mở rộng thành một bài viết có tiêu đề rõ ràng, hình ảnh chọn lọc, câu chuyện thiết kế và thông tin tham khảo.", "Bạn chỉ cần thay nội dung mẫu trong tệp assets/js/content.js và dán URL bài đăng Facebook cụ thể vào trường facebookUrl."] },
-        { heading: "Lợi ích", paragraphs: ["Bài viết có địa chỉ riêng, dễ gửi cho khách hàng và đối tác. Nội dung vẫn được lưu trữ theo cấu trúc của Soyn, trong khi người đọc vẫn có thể truy cập bài gốc trên Facebook."] }
-      ]
-    },
-    {
-      slug: "huong-dan-chon-tranh-cho-phong-khach",
-      title: "Chọn tranh cho phòng khách: bắt đầu từ đâu?",
+      slug: "trang-tri-khong-gian-song-voi-tranh-canvas",
+      title: "Trang trí không gian sống với tranh canvas Soyn",
       category: "Cảm hứng không gian",
-      date: "2026-07-01",
-      excerpt: "Một khung nội dung mẫu để phát triển các bài tư vấn décor từ fanpage Soyn.",
+      date: "2018-03-01",
+      excerpt: "Ba hướng lựa chọn tranh canvas giúp không gian sống bớt đơn điệu và thể hiện rõ cá tính của chủ nhân.",
       art: "art-1",
-      demo: true,
-      source: "Facebook",
-      facebookUrl: "https://www.facebook.com/soyn.vn",
+      sourceUrl: "https://soyn.vn/trang-tri-khong-gian-song-voi-tranh-canvas-soyn",
+      sourceLabel: "Đọc bài gốc trên soyn.vn",
       content: [
-        { heading: "Đọc không gian trước khi chọn tranh", paragraphs: ["Quan sát kích thước mảng tường, tỷ lệ nội thất, nguồn sáng và màu chủ đạo. Đây là nội dung mẫu, bạn có thể thay bằng bài đăng thật của Soyn."] },
-        { heading: "Chọn một nguyên tắc ưu tiên", paragraphs: ["Có thể ưu tiên sự đồng điệu, tạo tương phản hoặc chọn tác phẩm làm điểm nhấn. Một bài Portal nên có ảnh minh họa và ví dụ cụ thể để người đọc dễ ứng dụng."] }
+        { heading: "Tranh canvas — giải pháp nghệ thuật dễ tiếp cận", paragraphs: ["Với mức chi phí hợp lý và khả năng ứng dụng linh hoạt, tranh canvas là lựa chọn phù hợp để làm mới căn phòng mà không cần thay đổi nhiều về nội thất. Một bức tranh hoặc một bộ tranh được chọn đúng có thể giúp mảng tường bớt trống, tạo điểm nhìn và thể hiện gu thẩm mỹ của người ở.", "Khi lựa chọn, điều quan trọng không nằm ở việc có thật nhiều tranh mà ở sự phù hợp giữa hình ảnh, màu sắc, kích thước và cảm xúc mà bạn muốn tạo ra trong không gian."] },
+        { heading: "Ba phong cách dễ ứng dụng", paragraphs: ["Tranh trừu tượng thu hút bằng màu sắc, hình khối và những lớp ý nghĩa mở, phù hợp với không gian hiện đại cần một điểm nhấn giàu cảm xúc. Tranh chữ Typography mang theo thông điệp tích cực, thường được lựa chọn cho góc làm việc, phòng học hoặc những nơi cần thêm năng lượng mỗi ngày.", "Với người yêu sự tinh giản, tranh Minimal sử dụng đường nét và bảng màu tiết chế để tạo nên tổng thể nhẹ nhàng, sang trọng. Nhiều tác phẩm đơn giản khi được phối thành bộ vẫn có thể tạo cá tính riêng trên một mảng tường trắng."] },
+        { heading: "Chọn tranh theo cảm xúc của căn phòng", paragraphs: ["Hãy bắt đầu từ câu hỏi: bạn muốn căn phòng trở nên ấm áp, thư thái, sinh động hay tập trung hơn? Khi cảm xúc chủ đạo đã rõ, việc chọn phong cách, màu sắc và bố cục tranh sẽ nhất quán hơn.", "Soyn phát triển nhiều dòng tranh từ trừu tượng, phong cảnh, typography đến tối giản, giúp khách hàng dễ tìm được hình ảnh phù hợp với không gian và câu chuyện riêng của mình."] }
       ]
     },
     {
-      slug: "nhat-ky-hoan-thien-don-hang",
-      title: "Nhật ký hoàn thiện một đơn hàng Soyn",
-      category: "Hậu trường",
-      date: "2026-06-22",
-      excerpt: "Từ khâu chọn hình, hoàn thiện sản phẩm đến đóng gói và bàn giao.",
-      art: "art-5",
-      demo: true,
-      source: "Facebook",
-      facebookUrl: "https://www.facebook.com/soyn.vn",
+      slug: "tranh-treo-tuong-co-that-su-can-thiet",
+      title: "Tranh treo tường có thật sự cần thiết?",
+      category: "Cảm hứng không gian",
+      date: "2026-07-15",
+      excerpt: "Không chỉ lấp đầy một mảng tường, tranh tạo điểm nhìn, kết nối nội thất và định hình cảm xúc cho căn phòng.",
+      art: "art-3",
+      sourceUrl: "https://www.facebook.com/soyn.vn/posts/1280424080884588/",
+      sourceLabel: "Xem bài viết trên Fanpage Soyn",
       content: [
-        { heading: "Quy trình", paragraphs: ["Sử dụng bài viết dạng hậu trường để thể hiện sự chỉn chu của thương hiệu. Có thể bổ sung hình ảnh từng công đoạn và chú thích ngắn."] },
-        { heading: "Liên kết fanpage", paragraphs: ["Cuối bài có nút dẫn về bài đăng Facebook gốc, giúp người đọc xem bình luận và tương tác cộng đồng."] }
+        { heading: "Một mảng tường cũng có thể thay đổi cảm giác của cả căn phòng", paragraphs: ["Tranh treo tường không phải là chi tiết bắt buộc, nhưng thường là mảnh ghép giúp không gian trở nên hoàn chỉnh. Một tác phẩm phù hợp có thể thu hút ánh nhìn, làm mềm những bề mặt kiến trúc và tạo liên kết giữa sofa, bàn, đèn cùng các vật dụng xung quanh.", "Khi thiếu điểm nhấn, căn phòng dù đầy đủ công năng vẫn có thể mang cảm giác trống hoặc chưa có cá tính. Tranh bổ sung lớp cảm xúc mà đồ nội thất thuần công năng khó thay thế."] },
+        { heading: "Giá trị nằm ở sự phù hợp", paragraphs: ["Không nhất thiết phải chọn tác phẩm lớn hoặc nhiều màu sắc. Một bức tranh nhỏ đặt đúng vị trí, một bộ tranh có tỷ lệ cân đối hoặc một bảng màu đồng điệu với nội thất đều có thể tạo hiệu quả rõ rệt.", "Hãy cân nhắc kích thước mảng tường, khoảng cách quan sát, ánh sáng và phong cách chung trước khi lựa chọn. Tranh đẹp nhất khi hiện diện tự nhiên trong không gian và khiến người ở cảm thấy gần gũi."] }
+      ]
+    },
+    {
+      slug: "de-tranh-len-tieng-ve-gu-tham-my",
+      title: "Hãy để những bức tranh lên tiếng về gu thẩm mỹ của bạn",
+      category: "Câu chuyện Soyn",
+      date: "2026-07-14",
+      excerpt: "Một bức tranh có thể gói gọn thế giới quan, sở thích và cách mỗi người muốn sống trong không gian của mình.",
+      art: "art-4",
+      sourceUrl: "https://www.facebook.com/soyn.vn/posts/1361890622737933/",
+      sourceLabel: "Xem bài viết trên Fanpage Soyn",
+      content: [
+        { heading: "Không gian sống là một cách kể chuyện", paragraphs: ["Mỗi người có một cách cảm nhận cái đẹp khác nhau. Có người tìm thấy sự bình yên trong phong cảnh, có người bị thu hút bởi những mảng màu trừu tượng, cũng có người yêu đường nét tối giản và khoảng trắng.", "Khi được đưa vào nhà, tranh không chỉ trang trí bức tường mà còn nói lên điều chủ nhân quan tâm, những nơi từng đi qua, ký ức muốn lưu giữ hoặc nguồn cảm hứng muốn nhìn thấy mỗi ngày."] },
+        { heading: "Tìm mảnh ghép phù hợp cho ngôi nhà", paragraphs: ["Thay vì chạy theo một xu hướng cố định, hãy chọn tác phẩm tạo được kết nối với bạn và hài hòa với bối cảnh nội thất. Màu tranh có thể đồng điệu để giữ sự nhẹ nhàng, hoặc tương phản có chủ đích để tạo điểm nhấn.", "Với kho hình ảnh đa dạng và dịch vụ mix theo yêu cầu, Soyn hướng đến việc giúp mỗi khách hàng tìm được mảnh ghép phản ánh đúng cá tính của không gian."] }
+      ]
+    },
+    {
+      slug: "art-clock-khi-thoi-gian-tro-thanh-nghe-thuat",
+      title: "Art Clock — khi thời gian trở thành một phần của nghệ thuật",
+      category: "Sản phẩm & Chất liệu",
+      date: "2026-07-13",
+      excerpt: "Đồng hồ nghệ thuật kết hợp công năng xem giờ với ngôn ngữ hình ảnh để tạo điểm nhấn khác biệt cho bức tường.",
+      art: "art-6",
+      sourceUrl: "https://www.facebook.com/soyn.vn/posts/607331701527166/",
+      sourceLabel: "Xem video trên Fanpage Soyn",
+      content: [
+        { heading: "Từ vật dụng quen thuộc đến điểm nhấn decor", paragraphs: ["Đồng hồ treo tường vốn là một vật dụng quen thuộc, nhưng khi mặt đồng hồ được phát triển như một tác phẩm hình ảnh, sản phẩm có thể đảm nhiệm đồng thời hai vai trò: xem giờ và trang trí.", "Art Clock phù hợp với những mảng tường cần một điểm nhấn gọn gàng, có công năng nhưng vẫn thể hiện cá tính. Hình ảnh, kim đồng hồ, tỷ lệ và phần hoàn thiện cần được cân bằng để tổng thể dễ nhìn và hài hòa."] },
+        { heading: "Sự chỉn chu trong quá trình hoàn thiện", paragraphs: ["Từ lựa chọn hình ảnh, xử lý bề mặt đến lắp bộ máy và kiểm tra hoạt động, mỗi công đoạn đều ảnh hưởng tới trải nghiệm sử dụng. Một chiếc đồng hồ đẹp cần giữ được màu sắc của tác phẩm, độ chắc chắn và chuyển động ổn định.", "Đây cũng là lựa chọn phù hợp cho quà tân gia, quà tặng cá nhân hóa hoặc một chi tiết nghệ thuật dành cho phòng khách, phòng làm việc và không gian kinh doanh."] }
+      ]
+    },
+    {
+      slug: "suc-hut-cua-tranh-truu-tuong-toi-gian",
+      title: "Sức hút của tranh trừu tượng trong không gian tối giản",
+      category: "Sản phẩm & Chất liệu",
+      date: "2026-07-12",
+      excerpt: "Màu sắc, hình khối và cảm nhận mở giúp tranh trừu tượng tạo điểm nhấn tinh tế trong nhiều phong cách nội thất hiện đại.",
+      art: "art-2",
+      sourceUrl: "https://soyn.vn/tranh-treo-tuong-cotton-canvas-abstract-truu-tuong-toi-gian-soyn-su0453",
+      sourceLabel: "Xem sản phẩm trên soyn.vn",
+      content: [
+        { heading: "Mỗi góc nhìn là một cảm xúc khác", paragraphs: ["Tranh trừu tượng không kể câu chuyện theo một hình ảnh duy nhất. Màu sắc, đường nét và hình khối mở ra nhiều cách cảm nhận, nhờ đó tác phẩm có thể tạo sự tò mò và thay đổi theo góc nhìn của mỗi người.", "Trong không gian hiện đại, Scandinavian hoặc tối giản, một tác phẩm trừu tượng giúp căn phòng có điểm nhấn mà không cần thêm quá nhiều vật trang trí."] },
+        { heading: "Chất liệu và độ hoàn thiện", paragraphs: ["Các mẫu tranh canvas của Soyn được hoàn thiện trên bề mặt có độ nhám, giúp hình ảnh mang cảm giác gần với chất liệu hội họa. Màu in cần rõ, ổn định và phù hợp với bảng màu nội thất khi đưa vào sử dụng thực tế.", "Khung gỗ chắc chắn và phương án treo thuận tiện giúp tranh dễ ứng dụng trong nhà ở, văn phòng hoặc làm quà tặng. Khi chọn kích thước, nên dựa trên chiều rộng nội thất bên dưới và khoảng trống thực tế của mảng tường."] }
+      ]
+    },
+    {
+      slug: "mix-match-tranh-cho-goc-sofa",
+      title: "Mix & Match tranh cho góc sofa: bắt đầu từ đâu?",
+      category: "Gợi ý phối tranh",
+      date: "2026-07-11",
+      excerpt: "Một bộ tranh được phối đúng tỷ lệ có thể kết nối góc sofa, tạo nhịp điệu thị giác và làm căn phòng có cá tính hơn.",
+      art: "art-5",
+      sourceUrl: "https://www.facebook.com/soyn.vn/photos/755995013327500/",
+      sourceLabel: "Xem bài viết trên Fanpage Soyn",
+      content: [
+        { heading: "Bắt đầu từ kích thước sofa và mảng tường", paragraphs: ["Góc sofa thường là điểm nhìn chính của phòng khách. Trước khi chọn tranh, hãy đo chiều rộng sofa, khoảng trống phía trên và xác định trục giữa. Tổng chiều rộng của bộ tranh nên đủ để tạo liên kết với nội thất nhưng không lấn át toàn bộ mảng tường.", "Với một mảng tường dài, bộ hai hoặc ba tranh tạo nhịp cân bằng. Không gian nhỏ có thể chọn một tác phẩm chính kết hợp một tranh phụ để giữ khoảng thở."] },
+        { heading: "Phối chủ đề, màu sắc và khung", paragraphs: ["Các tranh trong cùng một bộ không nhất thiết giống nhau hoàn toàn. Chúng có thể được kết nối bằng bảng màu, phong cách hình ảnh, chủ đề hoặc cùng một kiểu khung.", "Mix & Match của Soyn được phối sẵn để khách hàng dễ hình dung tổng thể. Với nhu cầu riêng, bộ tranh có thể tiếp tục điều chỉnh theo màu sofa, rèm, thảm và cảm xúc mong muốn của căn phòng."] }
       ]
     }
   ]
