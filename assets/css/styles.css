@@ -108,7 +108,7 @@ h1, h2, h3, h4 {
 
 .intro-grid { display: grid; grid-template-columns: .62fr 1.38fr; gap: 70px; align-items: start; }
 .intro-grid h2 { margin: 0; font-size: clamp(2.1rem, 3.5vw, 3.7rem); line-height: 1; letter-spacing: -.055em; font-weight: 550; }
-.intro-copy { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+.intro-copy { max-width: 780px; }
 .intro-copy p { margin-top: 0; color: var(--muted); }
 .stat-row { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); margin-top: 55px; }
 .stat { background: #fff; padding: 30px; }
