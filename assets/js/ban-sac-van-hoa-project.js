@@ -32,6 +32,7 @@
       { src: "assets/images/projects/ban-sac-van-hoa-viet-nam/03-thap-muoi.jpg", alt: "Tranh Cô gái Tháp Mười giữa đầm sen", caption: "Cô gái Tháp Mười", layout: "portrait" },
       { src: "assets/images/projects/ban-sac-van-hoa-viet-nam/04-champa.jpg", alt: "Tranh Cô gái Chămpa cùng kiến trúc tháp Chăm", caption: "Cô gái Chămpa", layout: "portrait" },
       { src: "assets/images/projects/ban-sac-van-hoa-viet-nam/05-tay-nguyen.jpg", alt: "Tranh Cô gái Tây Nguyên trong trang phục truyền thống", caption: "Cô gái Tây Nguyên", layout: "portrait" },
+      { src: "assets/images/projects/ban-sac-van-hoa-viet-nam/06-hoi-an.jpg", alt: "Tranh Cô gái Hội An trong không gian phố cổ và đèn lồng", caption: "Cô gái Hội An", layout: "portrait" },
       { src: "assets/images/projects/ban-sac-van-hoa-viet-nam/07-bac-ninh.jpg", alt: "Tranh Cô gái Bắc Ninh với phục trang truyền thống", caption: "Cô gái Bắc Ninh", layout: "portrait" },
       { src: "assets/images/projects/ban-sac-van-hoa-viet-nam/08-sa-pa.jpg", alt: "Tranh Cô gái Sa Pa bên ruộng bậc thang", caption: "Cô gái Sa Pa", layout: "portrait" },
       { src: "assets/images/projects/ban-sac-van-hoa-viet-nam/09-hue.jpg", alt: "Tranh Cô gái Kinh thành Huế", caption: "Cô gái Kinh thành Huế", layout: "portrait" }
