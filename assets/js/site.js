@@ -68,6 +68,39 @@
   }
   addMobileBottomNav();
 
+  function addChatButtons() {
+    const style = document.createElement('style');
+    style.textContent = `
+      .chat-actions{position:fixed;right:18px;bottom:22px;z-index:180;display:flex;flex-direction:column;gap:10px;align-items:flex-end}
+      .chat-action{display:flex;align-items:center;gap:10px;min-height:48px;padding:8px 14px 8px 10px;border-radius:999px;color:#fff;font-size:.82rem;font-weight:700;box-shadow:0 10px 28px rgba(0,0,0,.18);transition:transform .2s ease,box-shadow .2s ease}
+      .chat-action:hover{transform:translateY(-2px);box-shadow:0 14px 32px rgba(0,0,0,.22)}
+      .chat-action-icon{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.18);font-size:.8rem;font-weight:800;letter-spacing:-.03em}
+      .chat-action svg{width:21px;height:21px;fill:currentColor}
+      .chat-action.zalo{background:#0068ff}
+      .chat-action.messenger{background:#168aff}
+      @media (max-width:820px){
+        .chat-actions{right:12px;bottom:calc(91px + env(safe-area-inset-bottom));gap:8px}
+        .chat-action{width:48px;height:48px;min-height:48px;padding:0;justify-content:center}
+        .chat-action span:last-child{display:none}
+        .chat-action-icon{width:48px;height:48px;background:transparent}
+      }
+    `;
+    document.head.appendChild(style);
+
+    const wrapper = document.createElement('div');
+    wrapper.className = 'chat-actions';
+    wrapper.setAttribute('aria-label', 'Kênh nhắn tin nhanh');
+    wrapper.innerHTML = `
+      <a class="chat-action zalo" href="https://zalo.me/0899456699" target="_blank" rel="noopener noreferrer" aria-label="Nhắn tin Zalo cho Soyn">
+        <span class="chat-action-icon">Zalo</span><span>Nhắn Zalo</span>
+      </a>
+      <a class="chat-action messenger" href="https://m.me/soyn.vn" target="_blank" rel="noopener noreferrer" aria-label="Nhắn tin Fanpage Soyn">
+        <span class="chat-action-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.14 2 11.25c0 2.91 1.45 5.51 3.72 7.2V22l3.4-1.87c.91.25 1.87.37 2.88.37 5.52 0 10-4.14 10-9.25S17.52 2 12 2Zm1 12.46-2.55-2.72-4.98 2.72 5.48-5.82 2.61 2.72 4.92-2.72L13 14.46Z"/></svg></span><span>Nhắn Fanpage</span>
+      </a>`;
+    document.body.appendChild(wrapper);
+  }
+  addChatButtons();
+
   $$('[data-year]').forEach(el => el.textContent = new Date().getFullYear());
 
   const observer = 'IntersectionObserver' in window ? new IntersectionObserver(entries => {
