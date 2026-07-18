@@ -1,0 +1,33 @@
+@media (max-width: 680px) {
+  .capability-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .capability {
+    min-height: 0;
+    padding: 22px 24px;
+    gap: 16px;
+    justify-content: flex-start;
+  }
+
+  .capability .number {
+    font-size: .75rem;
+    line-height: 1;
+  }
+
+  .capability > div {
+    min-height: 0;
+  }
+
+  .capability h3 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+
+  .capability p {
+    min-height: 0;
+    margin-top: 7px;
+    font-size: .88rem;
+    line-height: 1.55;
+  }
+}
