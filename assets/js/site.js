@@ -155,6 +155,60 @@
   }
   addChatButtons();
 
+  function expandSelectedClients() {
+    const grid = document.querySelector('.featured-clients .client-grid');
+    if (!grid) return;
+
+    const clients = [
+      'Trường Đại học Kiến trúc TP.HCM',
+      'Trường Đại học Kinh tế TP.HCM',
+      'Trường Đại học Mỹ thuật TP.HCM',
+      'Trường Đại học Ngoại ngữ – Tin học TP.HCM',
+      'Trường Cao đẳng Văn hóa Nghệ thuật TP.HCM',
+      'Viện Trao đổi Văn hóa với Pháp',
+      'Maserati Việt Nam',
+      'Nha khoa KIM',
+      'Nha khoa Orion Smile Việt Nam',
+      'Gong Cha Việt Nam',
+      'Le Monde Steak',
+      'Nhà hàng Ramen Ichibanya',
+      'Bông Trà F&B',
+      'Seacake',
+      'Sadec Garden',
+      'Viet Village',
+      'Nexus House Boutique Hotel',
+      'December Hotel Nha Trang',
+      'Khách sạn La Casa Vũng Tàu',
+      'Khách sạn V Boutique Vũng Tàu',
+      'Sunset Hotel & Apartment',
+      'JOI Hospitality',
+      'Urbanest',
+      'Alagon Nam Cát Tiên',
+      'VietCharm Culture & Dining Show',
+      'Vinhomes Central Park',
+      'Trung tâm Trọng tài Quốc tế Việt Nam',
+      'CBRE Việt Nam',
+      'Công ty TNHH Golden Trust',
+      'Công ty Cổ phần Gỗ An Cường',
+      'Bong Studio',
+      'Galaxy ID',
+      'Công ty Cổ phần In và Truyền thông Hoàng Gia',
+      'Công ty TNHH Tư vấn Dịch vụ CFV',
+      'Đại Thiên Phú Travel & Event'
+    ];
+
+    grid.innerHTML = clients.map(name => `<div>${name}</div>`).join('');
+    const style = document.createElement('style');
+    style.textContent = `
+      .featured-clients .client-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+      .featured-clients .client-grid>div{display:flex;align-items:center;min-height:92px;padding:18px 20px;background:#fff;font-size:.88rem;line-height:1.45;font-weight:600}
+      @media(max-width:960px){.featured-clients .client-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+      @media(max-width:700px){.featured-clients .client-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.featured-clients .client-grid>div{min-height:82px;padding:15px;font-size:.78rem}}
+    `;
+    document.head.appendChild(style);
+  }
+  expandSelectedClients();
+
   $$('[data-year]').forEach(el => el.textContent = new Date().getFullYear());
   const observer = 'IntersectionObserver' in window ? new IntersectionObserver(entries => entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); } }), { threshold: .12 }) : null;
   $$('.reveal').forEach(el => observer ? observer.observe(el) : el.classList.add('visible'));
