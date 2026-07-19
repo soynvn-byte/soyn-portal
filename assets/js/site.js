@@ -165,14 +165,20 @@
       'Trường Đại học Mỹ thuật TP.HCM',
       'Trường Đại học Ngoại ngữ – Tin học TP.HCM',
       'Trường Cao đẳng Văn hóa Nghệ thuật TP.HCM',
+      'Trường Cao đẳng Công Thương TP.HCM',
+      'Nhạc viện TP.HCM',
       'Viện Trao đổi Văn hóa với Pháp',
+      'Báo Tuổi Trẻ',
       'Maserati Việt Nam',
+      'Ngân hàng Shinhan Việt Nam',
       'Nha khoa KIM',
       'Nha khoa Orion Smile Việt Nam',
       'Gong Cha Việt Nam',
       'Le Monde Steak',
       'Nhà hàng Ramen Ichibanya',
       'Bông Trà F&B',
+      'Ẩm thực chay Tuệ',
+      'Chiếc Muỗng Vàng',
       'Seacake',
       'Sadec Garden',
       'Viet Village',
@@ -181,9 +187,12 @@
       'Khách sạn La Casa Vũng Tàu',
       'Khách sạn V Boutique Vũng Tàu',
       'Sunset Hotel & Apartment',
+      'Lumiere Riverside Hotel',
+      'Long Thành Riverside',
       'JOI Hospitality',
       'Urbanest',
       'Alagon Nam Cát Tiên',
+      'Green World Nha Trang',
       'VietCharm Culture & Dining Show',
       'Vinhomes Central Park',
       'Trung tâm Trọng tài Quốc tế Việt Nam',
@@ -191,13 +200,21 @@
       'Công ty TNHH Golden Trust',
       'Công ty Cổ phần Gỗ An Cường',
       'Bong Studio',
+      'Xôn Xao Studio',
+      'To Ma To Interior Design',
+      'Công ty Cổ phần Nội thất Cơ Bản',
       'Galaxy ID',
       'Công ty Cổ phần In và Truyền thông Hoàng Gia',
       'Công ty TNHH Tư vấn Dịch vụ CFV',
-      'Đại Thiên Phú Travel & Event'
+      'Đại Thiên Phú Travel & Event',
+      'Công ty Cổ phần Dịch vụ Du lịch Bến Thành',
+      'Công ty Cổ phần Tiếp vận Hoàng Gia',
+      'Công ty TNHH TM DV SX L&T',
+      'Công ty TNHH Thương mại và Dịch vụ D.L.T',
+      'Kohnan Việt Nam'
     ];
 
-    grid.innerHTML = clients.map(name => `<div>${name}</div>`).join('');
+    grid.innerHTML = [...new Set(clients)].map(name => `<div>${name}</div>`).join('');
     const style = document.createElement('style');
     style.textContent = `
       .featured-clients .client-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
