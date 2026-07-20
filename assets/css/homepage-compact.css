@@ -1,0 +1,35 @@
+/* Homepage density refinements */
+#main > .section:nth-of-type(4){padding:68px 0}
+#main > .section:nth-of-type(4) .section-head{margin-bottom:26px;align-items:center}
+#main > .section:nth-of-type(4) .section-head h2{font-size:clamp(2.4rem,4vw,4.3rem);line-height:.98;margin-top:6px}
+#main > .section:nth-of-type(4) .section-head p{max-width:470px;font-size:1rem;line-height:1.55}
+#main > .section:nth-of-type(4) .capability-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+#main > .section:nth-of-type(4) .capability{min-height:185px;padding:22px 24px}
+#main > .section:nth-of-type(4) .capability>div{min-height:auto}
+#main > .section:nth-of-type(4) .capability h3{font-size:1.15rem;line-height:1.2}
+#main > .section:nth-of-type(4) .capability p{min-height:0;margin-top:8px;font-size:.86rem;line-height:1.55}
+#main > .section:nth-of-type(4) .capability .number{font-size:.72rem}
+
+@media(max-width:960px){
+  #main > .section:nth-of-type(4){padding:56px 0}
+  #main > .section:nth-of-type(4) .section-head{align-items:flex-start;margin-bottom:22px}
+  #main > .section:nth-of-type(4) .capability-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  #main > .section:nth-of-type(4) .capability{min-height:160px}
+}
+
+@media(max-width:700px){
+  #main > .section:nth-of-type(4){padding:46px 0}
+  #main > .section:nth-of-type(4) .section-head{gap:14px;margin-bottom:20px}
+  #main > .section:nth-of-type(4) .section-head h2{font-size:2.15rem}
+  #main > .section:nth-of-type(4) .section-head p{font-size:.92rem}
+  #main > .section:nth-of-type(4) .capability{min-height:145px;padding:18px}
+  #main > .section:nth-of-type(4) .capability h3{font-size:1rem}
+  #main > .section:nth-of-type(4) .capability p{font-size:.79rem}
+}
+
+@media(max-width:430px){
+  #main > .section:nth-of-type(4) .capability-grid{grid-template-columns:1fr 1fr}
+  #main > .section:nth-of-type(4) .capability{min-height:136px;padding:15px}
+  #main > .section:nth-of-type(4) .capability h3{font-size:.94rem}
+  #main > .section:nth-of-type(4) .capability p{font-size:.74rem;line-height:1.45}
+}
